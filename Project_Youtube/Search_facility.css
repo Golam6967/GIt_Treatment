@@ -1,0 +1,46 @@
+.search_bar{
+    background-color: white;
+    font-family: "Arial Rounded MT Bold";
+    font-weight: bold;
+    font-style: italic;
+
+    width: 500px;
+    height: 40px;
+
+
+}
+
+.Searching{
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+}
+.lp{
+    width: 120px;
+    height: 46px;
+
+}
+.rp{
+    background-color: #d40404;
+    width: 120px;
+    height: 46px;
+}
+.head_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    margin-bottom: 40px ;
+    position: fixed;
+    top: 0px;
+}
+.yt_logo {
+    width: 120px;
+    height: 46px;
+}
+#body{
+        background-color:gray;
+}
+.grid{
+    margin-top: 60px;
+}

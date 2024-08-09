@@ -1,0 +1,53 @@
+.image_1{
+    width: 300px;
+    object-fit: cover;
+    padding-bottom: 30px;
+    display: flex;
+}
+.image_1:hover{
+  cursor:pointer;
+}
+.div_1{
+    width: 100%;
+}
+.div_1_2{
+    display: block;
+    width: 300px;
+}
+
+p{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.68);
+}
+.div_1_2_2{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    vertical-align: top;
+    width: 100%;
+}
+.icon{
+    width: 100%;
+    border-radius: 100px;
+
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+.body_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+.lc,.rc{
+    flex: 1;
+}
+.center_col{
+    flex: 3;
+    column-gap: 3px;
+}
